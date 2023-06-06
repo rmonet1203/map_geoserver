@@ -1,0 +1,12 @@
+.ToolbarCTRL{
+    border: 2px solid rgba(0,0,0,0.2);
+    background-clip: padding-box;  
+    text-align: left;
+    font-size: 13px;
+    color: #333;
+    padding: 10px 14px;
+    background-color: hsla(0, 0%, 100%, 0.8);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    border: 1px solid grey;
+}

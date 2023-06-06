@@ -1,0 +1,25 @@
+.SpinnerControl {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-left: 3px !important;
+}
+.SpinnerControl:after {
+    content: " ";
+    display: block;
+    width: 16px;
+    height: 16px;
+    margin: 8px;
+    border-radius: 50%;
+    border: 3px solid #2867B2;
+    border-color: #2867B2 transparent #2867B2 transparent;
+    animation: SpinnerControl 1.2s linear infinite;
+}
+@keyframes SpinnerControl {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
